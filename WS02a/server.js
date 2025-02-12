@@ -7,9 +7,13 @@ http
     });
     if (request.url === "/") {
       response.write("Hello World!");
+    } else if (request.url === "/about") {
+      response.write("About Page");
+    } else if (request.url === "/contact") {
+      response.write("Contact Page");
     }
     response.end();
   })
-  .listen(8081);
+  .listen(3000);
 
-console.log("Server started on http://localhost:8081");
+console.log("Server started on http://localhost:3000/");
