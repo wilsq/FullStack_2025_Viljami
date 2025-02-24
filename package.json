@@ -2,16 +2,15 @@
   "name": "fullstack_2025_viljami",
   "version": "1.0.0",
   "description": "Tämä on Laurean Fullstack 2025 kansio",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "npx nodemon WS02b/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Viljami",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.7.9"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.9"
+    "axios": "^1.7.9",
+    "fs": "^0.0.1-security"
   }
 }
