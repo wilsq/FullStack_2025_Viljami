@@ -1,1 +1,0 @@
-Tähän myös jotain tekstiä. fs.writeFile --- 

@@ -1,1 +1,0 @@
-# Ensimmäinen workshop
