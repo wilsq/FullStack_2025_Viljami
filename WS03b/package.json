@@ -2,5 +2,16 @@
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^5.1.0"
-  }
+  },
+  "name": "ws03b",
+  "version": "1.0.0",
+  "description": "Tämä on Laurean Fullstack 2025 kansio",
+  "main": "App.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
