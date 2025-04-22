@@ -1,0 +1,10 @@
+
+
+# WS04_MongoDB/tuntiharjoitukset_MDB
+#WS04_MongoDB/tuntiharjoitukset_mongoose
+# WS05_*/
+WS06_*/
+
+Ratkaisut/
+node_modules/
+.env

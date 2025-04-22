@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jari Kovis">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Login Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-outline {
+            margin-bottom: 20px;
+        }
+
+        .btn-custom {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        .btn-custom:hover {
+            background-color: #0056b3;
+        }
+
+        .link-info {
+            color: #007BFF;
+        }
+
+        .link-info:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-center mb-4">
+            <i class="fas fa-crow fa-2x" style="color: #709085;"></i>
+            <h1 class="h3 fw-bold">Log In</h1>
+        </div>
+        <form>
+            <div class="form-outline">
+                <input type="email" id="email" required class="form-control form-control-lg"
+                    placeholder="Email address" />
+                <label class="form-label" for="email">Email address</label>
+            </div>
+            <div class="form-outline">
+                <input type="password" id="pass" required class="form-control form-control-lg" placeholder="Password" />
+                <label class="form-label" for="pass">Password</label>
+            </div>
+            <div class="pt-1 mb-4">
+                <button class="btn btn-custom btn-lg btn-block" id="button1" type="button">Login</button>
+            </div>
+            <p class="small mb-5 pb-lg-2"><a class="text-muted" href="#!">Forgot password?</a></p>
+            <p>Don't have an account? <a href="#!" class="link-info">Register here</a></p>
+        </form>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
